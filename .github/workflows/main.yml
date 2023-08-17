@@ -78,6 +78,7 @@ jobs:
   exchange:
     needs: build
     runs-on: ubuntu-latest
+    environment: sandbox
     steps:    
     - uses: actions/checkout@v3
     - uses: actions/cache@v3
