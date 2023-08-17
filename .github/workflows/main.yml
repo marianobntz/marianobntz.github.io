@@ -89,7 +89,7 @@ jobs:
               "password": "${{ secrets.ANYPOINT_PASSWORD }}"
           },
           {
-              "id": "anypoint-exchange-v3-student-deployment",
+              "id": "rtfk.repository",
               "username": "${{ secrets.ANYPOINT_USERNAME }}",
               "password": "${{ secrets.ANYPOINT_PASSWORD }}"
           },
