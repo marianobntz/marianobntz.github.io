@@ -55,11 +55,6 @@ jobs:
                 "password": "${{ secrets.ANYPOINT_PASSWORD }}"
             },
             {
-              "id": "anypoint-exchange-v3-student-deployment",
-              "username": "${{ secrets.ANYPOINT_USERNAME }}",
-              "password": "${{ secrets.ANYPOINT_PASSWORD }}"
-            },
-            {
                 "id": "mulesoft-releases",
                 "username": "${{ secrets.RELEASES_USERNAME }}",
                 "password": "${{ secrets.RELEASES_PASSWORD }}"
