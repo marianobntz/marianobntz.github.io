@@ -88,8 +88,8 @@
                     <runtimeFabricDeployment>
                         <uri>https://anypoint.mulesoft.com</uri>
                         <muleVersion>${mule.version}</muleVersion>
-                        <username>${env.AP_UNAME}</username>
-                        <password>${env.AP_PASSW}</password>
+                        <username>${username}</username>
+                        <password>${password}</password>
                         <applicationName>${rtf.app.name}</applicationName>
                         <target>${deployment.target}</target>
                         <environment>Sandbox</environment>
